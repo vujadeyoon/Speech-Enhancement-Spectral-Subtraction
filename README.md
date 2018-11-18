@@ -1,4 +1,4 @@
-# Speech enhancement for Spectral Subtraction (SS)
+# Spectral Subtraction (SS) for speech enhancement
 C implementation of spectral subtraction for speech enhancement
 
 ## Table of contents
