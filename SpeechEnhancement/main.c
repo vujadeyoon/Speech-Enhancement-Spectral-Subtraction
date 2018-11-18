@@ -8,13 +8,13 @@ Title: main.c
 Version: 181118a
 Description: Speech enhancement (Spectral subtraction for noise reduction)
 
-Noisy signal -> Windowing -> Estimated noise -----
+Noisy signal -> Windowing -> Estimated noise ----
 		    |  				 |
 		    -------------> DFT -----> Magnitude
 				    |            |
 				  Phase          |
 				    |		 |	
-Cleaned speech <------ OLA <------ IDFT <---------		
+Cleaned speech <------ OLA <----- IDFT <---------		
 ****************************************************************************/
 
 #include "header.h"
