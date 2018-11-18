@@ -5,7 +5,7 @@ Github: https://github.com/vujadeyoon
 Title: matrix_computations.h
 Version: 181118a (Ver.2.0a)
 Description: The matrix_computation_ver.2.0 supports generic c codes. 
-	     Thus, some user-defined types and functions such as buffer in the matrix_computation_ver.1.0 are removed.
+             Thus, some user-defined types and functions such as buffer in the matrix_computation_ver.1.0 are removed.
 Todo list: SVD
 **************************************/
 
