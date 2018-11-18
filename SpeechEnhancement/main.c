@@ -83,8 +83,6 @@ int main(int argc, char *argv[])
 	for (i = 0; i < (len / frame_sz) - 1; i++) {
 		for (n = 0; n < frame_sz; n++) {
 			*((double *)(w2->buf) + (i * frame_sz + n)) = (*((double *)(win_hamming->buf) + n)) * ((double) (*((short *)(sig_in->buf) + ((frame_sz / 2) + i * frame_sz + n))));
-			
-			
 		}
 	}	
 
